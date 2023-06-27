@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://111.231.2.243:3306/rica?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: rica
+    password: lkr19951116
+    #        type: com.alibaba.druid.pool.DruidDataSource
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      keep-alive: true
+  hikari:
+    maximum-pool-size: 20
+    max-lifetime: 600000
+    connection-timeout: 1000
