@@ -12,3 +12,14 @@ spring:
     maximum-pool-size: 20
     max-lifetime: 600000
     connection-timeout: 1000
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    cache: false
+
+
+  mvc:
+    static-path-pattern: /static/**
